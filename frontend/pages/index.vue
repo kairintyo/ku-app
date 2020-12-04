@@ -1,5 +1,5 @@
-te>
-  <div class="container">
+<template>
+ <div class="container">
     <div>
       <h1 class="title">
         Zenn-app
