@@ -53,5 +53,8 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  axios: {
+    baseURL: process.env.NODE_ENV === "production" ? "https://backend.kairintyo.net" : "http://localhost:5000"
+  },
 }
